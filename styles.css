@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.world-stat{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: .5rem;
+    margin:.5rem;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+.world-stat *{
+    font-size: 1.2rem;
+    border:1px solid black;
+    padding: .5rem;
+}
+
+#a-country-id{
+    background-color: aquamarine;
+}
+
+#a-country-name{
+    background-color:aqua;
+}
+
+#a-country-population{
+    background-color:rgb(110, 72, 164)
+}
+
+#a-country-world{
+    background-color:rgb(208, 202, 91)
+}
+
+
+
+
+
